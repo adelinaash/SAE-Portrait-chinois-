@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portrait chinois</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+    
+    <section>
+
+        <div class="bg"></div> 
+
+        <header>
+
+         <a href="#" class="logo"> Portrait chinois</a>
+
+         <ul class="navigation">
+ 
+            <li> <a href="#" class="active">Le Portrait chinois</a></li>
+            <li> <a href="">Une Poupée</a></li>
+            <li> <a href="">Un Philosophe</a></li>
+            <li> <a href="">Un Mood</a></li>
+            <li> <a href="">Un Pays</a></li>
+            <li> <a href="">Un héro national</a></li>
+            <li> <a href="">Une planète</a></li>
+         </ul>   
+        </header>
+    
+        <div class="contenu">
+            <div class="texte-boite">
+                <h2>Si Adelina était... <br>Elle serait...</h2>
+                <p>Voici le portrait chinois de Adelina ASHANI.</p>
+                <a href="#" class="btn"><span></span>Cliquez sur les cases pour avoir une représentation de ce que vous lirez.</a>
+            </div>
+
+            <div class="imgboite">
+                <img src="./image/hello.png" alt="" class="ImgPc">
+            </div>
+        </div>
+
+        
+        <ul class="tab">
+            
+            <li data-text="1"><p>Poupée</p> <img src="./image/chucky.png" alt="" onclick="ImageSlider('./image/chucky.png'); ColeurF('#5A1101');textpc('nzdjehuhep')"  ></li>
+            <li data-text="2"><p>Psychanalyste</p><img src="./image/freuud.png" alt="" onclick="ImageSlider('./image/freuud.png'); ColeurF('#7C7B7B')"> </li>
+            <li data-text="3"> <p>Mood</p><img src="./image/grumpy.png" alt="" onclick="ImageSlider('./image/grumpy.png');ColeurF('#5C4848')"> </li>
+            <li data-text="4"> <p>Pays</p><img src="./image/ksv.png" alt="" onclick="ImageSlider('./image/ksv.png'); ColeurF('#565771')"> </li>
+            <div class="skdr">
+            <li data-text="5"> <p>héro</p><img src="./image/Skanderbeg.png" alt="" onclick="ImageSlider('./image/Skanderbeg.png'); ColeurF('#51514E')"> </li> 
+            </div>   
+            <li data-text="6"> <p>Planète</p> <img src="./image/pluton.png" alt="" onclick="ImageSlider('./image/pluton.png'); ColeurF('#9E9D9A')"> </li>
+        </ul>
+
+        
+
+
+<script>
+
+    function ImageSlider(image){
+        document.querySelector('.ImgPc').src = image
+}
+
+function ColeurF(couleur){
+        document.querySelector('.bg').style.background = couleur
+}
+
+function textpc(text){
+    document.querySelector('.contenu').src = Text
+}
+</script>
+
+
+
+<section>
+
+    <div class="chucky" >
+    <h1>    Si j'étais une poupée, je serais Chucky. <br>
+        Parce qu'il est agressif, petit et pâle. Nous avons beaucoup de points en commun. Pour rire, mes amis me définissent souvent comme étant une enfant à cause de ma taille, et une psycopathe à cause de mon agressivité. Quelque part, on se ressemble lui et moi..</h1>
+
+    <br>
+
+    <h2>    Si j'étais un Psychanalyste, je serais Freud. <br>
+        En effet, je trouve que sa théorie sur l'inconscient est remarquable. Pour apprendre à me connaître en profondeur, j'ai souvent observé mes mécanismes et mes agissements inconscients et impulsifs. C'est en réfléchissant dessus que j'ai réellement compris qui j'étais et pourquoi. Quand j'ai découvert Freud à l'école, j'ai beaucoup apprécié ce qu'il défendait, et cela me paraissait plutôt cohérent. </h2>
+
+    <br>
+
+    <h3>    Si j'étais une humeur, un mood, je serais l'aigreur. <br>
+        On me dit souvent que je suis aigrie et que je râle beaucoup. Ce qui n'est pas faux en soi, mais je pense que mon entourage abuse. Je pense juste que la positivité, c'est comme tout, il ne faut pas en abuser, sinon on se ment à soi même. On ne peut pas être tout le temps joyeux ! </h3>    
+    <br>
+
+    <h4>Si j'étais un pays, je serais le Kosovo. <br> Mes parents sont tout deux nés là-bas. J'y vais pratiquement toutes les grandes vacances. J'aime beaucoup y aller.Je sais parler l'albanais, et quand je vais au Kosovo, je me sens vraiment comme chez moi. C'est un petit pays, indépendant depuis une vingtaine d'années, qui a subi la guerre et qui est souvent méprisé puisque les gens ne le connaissent pas. Ayant grandis dans la culture albanaise, ce pays et sa culture forment une partie de moi.  </h4>
+
+    <br> 
+
+    <h5>Si j'étais un héro national, je serais Gjergj Kastrioti (Georges Castriote), alias Skenderbeg. C'était un Seigneur et un commandant militaire, qui est considéré comme étant un héro national albanais pour avoir libéré l'Albanie de qui était sous l'emprise, de l'Empire Ottoman. C'est une figure importante de l'histoire albanaise. </h5>
+
+    <br> 
+
+    <h6>Enfin, si j'étais une planète, je serais Pluton. <br> On appelle Pluton "la planète naine", et moi, on m'apelle souvent "la naine"... C'est une planète qui est éloignée du systeme solaire, elle est à l'écart. Je pense que vous voyez où je veux en venir... J'ai ma place au sein de la société et j'aime en faire partie. J'aime bien être entourée mais tout en étant à l'écart. En effet, souvent, en groupe, j'apprécie la présence des autres, mais j'aime être dans ma bulle, sur ma planète. Pluton et moi sommes désignées comme étant des naines, et nous sommes toutes les deux un peu à l'écart</h6>
+
+    <br>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+   
+   
+</body>
+</html>
